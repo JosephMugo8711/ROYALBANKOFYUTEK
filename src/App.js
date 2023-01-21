@@ -10,6 +10,7 @@ function App() {
     <div className="container">
       <Header />
       <Search />
+      
 
  
     </div>
