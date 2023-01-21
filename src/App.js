@@ -11,6 +11,7 @@ function App() {
       <Header />
       <Search />
       <Input />
+      <Table/>
 
  
     </div>
