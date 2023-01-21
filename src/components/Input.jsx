@@ -18,7 +18,7 @@ const Input = () =>{
       body:JSON.stringify(inputData)
     }
     
-    fetch('https://royalyutek-production.up.railway.app/transactions',config)
+    fetch('http://localhost:3001/transactions',config)
     .then(response=>response.json())
     .then(data=>console.log(data))
     
