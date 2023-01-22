@@ -21,7 +21,7 @@ Welcome to the  ROYAL BANK OF YUTEK , where you can trust us with all your finan
 ### Requirements
 * [Library](https://reactjs.org/)
 * Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)
-* [Testing Platform](https://vercel.com/ )
+* [Testing Platform](https://royal-bank-of-yutek.vercel.app/)
 
 
 ### Getting Files
@@ -43,14 +43,9 @@ To install all dependencies
 Live development https://royal-bank-of-safcom.vercel.app/
 *****
 ## Live Link
--
+https://royal-bank-of-yutek.vercel.app/
 *****
-## Dependencies
-- Package Name
-- Package Name
-- Package Name
-- Package Name
-*****
+
 ## Technologies Used
 1. HTML
 2. MdBootstrap
