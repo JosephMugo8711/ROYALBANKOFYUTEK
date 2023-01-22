@@ -12,17 +12,21 @@ function Table(){
     })
   },[])
 
-  const newList = transactions.map((array)=>{
-      return(
-        <tr key={array.id}>
-      <td>{array.date}</td> 
-      <td>{array.description}</td>
-      <td>{array.category}</td>
-      <td>{array.amount}</td>
-      
-      </tr>
-      )
-  })
+  function handleDelete(id) {
+   
+    // The delete Fetch Function to delete Items in the Table  
+    
+        fetch(`http://localhost:3000/transactions/${id}`, {
+          method: "DELETE",
+          headers: {
+            "Content-Type": "application/json",
+          }
+        })
+        .then(response => response.json())
+        .then(data => document.location.reload())
+      }
+    
+      const newList = transactions.sort((a, b) => (a.description > b.description ? 1 : -1))
 
 
     return(
@@ -38,7 +42,20 @@ function Table(){
                </tr>
             </thead>
             <tbody>
-            {newList}
+              {
+            newList.map(array => (
+              <tr key={array.id}>
+                <td>{array.date}</td>
+                <td>{array.description}</td>
+                <td>{array.category}</td>
+                <td>{array.amount}</td>
+                <td>
+                <button onClick={ ()=> handleDelete(array.id)} className="btn btn-success">Delete</button>
+                </td>
+
+              </tr>
+              ))
+            }
             
             </tbody>
           </table>
