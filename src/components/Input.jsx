@@ -45,7 +45,7 @@ function Input({onAddTransaction}){
        <input type="number" name="amount" id="amount" value={amount} onChange={(e) => setAmount(e.target.value)} className="form-control form-control-sm"  placeholder="amount" aria-label="form-control form-control-sm" />  
        </div>
        <div className="col-3  mx-auto p-3"> 
-       <input type="submit" value="SUBMIT"/>
+       <input type="submit" value="SUBMIT" id="submit"/>
         </div>
           </form>
           </div>
