@@ -3,23 +3,22 @@
 ### Mugo Joseph Wamiti
 ****
 ## Project Description
-Welcome to the  ROYAL BANK OF SAFCOM , where you can trust us with all your financial data!
+Welcome to the  ROYAL BANK OF YUTEK , where you can trust us with all your financial data!
 
 ##As a user, I should be able to:
 
-See a table of the transactions.
-Fill out and submit the form to add a new transaction. This adds adds the new transaction to the table as well as post the new transaction to the backend API for persistence.
-Filter transactions by typing into the search bar. Only transactions with a description matching the search term should be shown in the transactions table.
+*See a table of the transactions.
+*Fill out and submit the form to add a new transaction. This adds adds the new transaction to the table as well as post the new transaction to the backend API for persistence.
+*Filter transactions by typing into the search bar. Only transactions with a description matching the search term should be shown in the transactions table.
 ******
 
 ## SCREENSHOTS
-![screenshot](https://user-images.githubusercontent.com/91910681/212424272-3ac2770c-0fdd-4adc-9482-8dbaa67dc96e.jpg)
+![finaltrans](https://user-images.githubusercontent.com/91910681/213945362-f157736e-b0f6-4232-bd45-d9c64054d333.png)
 
 
 ********
 ## SetUp Instruction
 ### Requirements
-* [Lang](lang Url)
 * [Library](https://reactjs.org/)
 * Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)
 * [Testing Platform](https://vercel.com/ )
