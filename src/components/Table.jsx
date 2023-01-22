@@ -1,14 +1,14 @@
 import React,{useState, useEffect} from "react";
 
+
 function Table(){
-  const[transactions, setList] = useState([])
+  const[transactions, setTransactions] = useState([])
 
   useEffect(()=>{
-    fetch('https://royalyutek-production.up.railway.app/transactions')
+    fetch('http://localhost:3000/transactions')
     .then(res=>res.json())
     .then(data=>{
-      setList(data)
-      
+      setTransactions(data)   
     })
   },[])
 
