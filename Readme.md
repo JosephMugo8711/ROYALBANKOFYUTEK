@@ -1,11 +1,12 @@
-# ROYAL BANK OF SAFCOM
+# ROYAL BANK OF YUTEK
 *****
 ### Mugo Joseph Wamiti
 ****
 ## Project Description
 Welcome to the  ROYAL BANK OF YUTEK , where you can trust us with all your financial data!
 
-##As a user, I should be able to:
+****
+###As a user, I should be able to:
 
 *See a table of the transactions.
 *Fill out and submit the form to add a new transaction. This adds adds the new transaction to the table as well as post the new transaction to the backend API for persistence.
