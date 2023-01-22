@@ -13,9 +13,6 @@ function Table(){
   },[])
 
   function handleDelete(id) {
-   
-    // The delete Fetch Function to delete Items in the Table  
-    
         fetch(`http://localhost:3000/transactions/${id}`, {
           method: "DELETE",
           headers: {
